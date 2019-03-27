@@ -3458,7 +3458,7 @@ img.partners--img {
   display: block;
   width: 56px;
   height: 56px;
-  background-image: url("assets/images/icon--dot.svg");
+  background-image: url("assets/images/icon--dots_1.svg");
   background-size: 56px;
   background-repeat: no-repeat;
   position: absolute;
@@ -3581,6 +3581,14 @@ img.stack__icon.stack__icon--fill {
   text-decoration: none;
   text-overflow: hidden;
   text-indent: -999px;
+}
+
+.icon-arrow {
+  background-repeat: no-repeat;
+  width: 7px;
+  height: 10px;
+  background-size: 7px;
+  background-image: url(assets/images/icon-arrow.svg);
 }
 
 .icon__customers {
