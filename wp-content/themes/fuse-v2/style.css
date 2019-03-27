@@ -4213,7 +4213,9 @@ ul.listing-logos__list li {
 	text-decoration: underline;
 }
 
-.no-hover-effect:hover{
+.no-hover-effect:hover,
+.no-hover-effect:active,
+.no-hover-effect:focus{
 	color: #fff;
 	text-decoration: underline;
 }
