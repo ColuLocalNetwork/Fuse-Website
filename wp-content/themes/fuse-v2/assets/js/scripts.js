@@ -31,7 +31,6 @@ jQuery(window).load(function() {
 
 
 jQuery(document).ready(function($){
-  // $(".wallet__icon").addClass("wallet__icon--image");
 
   $('.smooth-scroll a').on('click', function(event) {
       var $anchor = $(this);
@@ -50,14 +49,12 @@ jQuery(document).ready(function($){
       var b = $(window).scrollTop();
       if( b > 60 ){
           $("header").addClass("header-scroll");
-          // $(".wallet__icon").css({ backgroundImage: "assets/images/wallet_white.svg" })
           $(".wallet__icon").removeClass("wallet__icon--image");
           $(".wallet__icon").addClass("wallet__icon--image_scroll");
       } else {
           $("header").removeClass("header-scroll");
           $(".wallet__icon").removeClass("wallet__icon--image_scroll");
           $(".wallet__icon").addClass("wallet__icon--image");
-          // $(".wallet__icon").css({ backgroundImage: "assets/images/wallet_dark_blue.svg" })
       }
   });
 
