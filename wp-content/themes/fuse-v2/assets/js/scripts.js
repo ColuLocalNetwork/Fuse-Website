@@ -51,10 +51,12 @@ jQuery(document).ready(function($){
           $("header").addClass("header-scroll");
           $(".wallet__icon").removeClass("wallet__icon--image");
           $(".wallet__icon").addClass("wallet__icon--image_scroll");
-      } else {
+          $("button.hamburger-button__container > span").css('background', '#85ffbc')
+        } else {
           $("header").removeClass("header-scroll");
           $(".wallet__icon").removeClass("wallet__icon--image_scroll");
           $(".wallet__icon").addClass("wallet__icon--image");
+          $("button.hamburger-button__container > span").css('background', '#fff')
       }
   });
 
