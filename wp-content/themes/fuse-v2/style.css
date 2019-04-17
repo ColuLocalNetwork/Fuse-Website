@@ -2605,6 +2605,11 @@ img.site-logo__img {
     min-height: 600px;
   }
 }
+@media (min-width: 1920px) {
+  .hero {
+    height: 100vh;
+  }
+}
 .hero__small {
   min-height: 360px;
 }
@@ -2635,6 +2640,12 @@ img.site-logo__img {
   .hero__image {
     width: 60%;
     max-width: 900px;
+  }
+}
+@media (min-width: 1920px) {
+  .hero__image {
+    width: 60%;
+    /* max-width: 900px; */
   }
 }
 .hero__overlay-inner {
