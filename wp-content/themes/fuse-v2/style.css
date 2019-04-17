@@ -2645,7 +2645,7 @@ img.site-logo__img {
 @media (min-width: 1920px) {
   .hero__image {
     width: 60%;
-    /* max-width: 900px; */
+    max-width: unset;
   }
 }
 .hero__overlay-inner {
